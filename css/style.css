@@ -211,7 +211,19 @@
  .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
+}
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
 
