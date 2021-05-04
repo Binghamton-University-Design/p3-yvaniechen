@@ -218,6 +218,7 @@
   position: absolute;
   top: 8px;
   left: 16px;
+  padding: 1em;
 }
 /* Top right text */
 .top-right {
