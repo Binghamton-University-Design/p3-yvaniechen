@@ -22,14 +22,16 @@
 
  }
 
- #home-inner {
+.home-inner {
    background: white;
    margin-top: 4rem 0;
  }
 
- #home-inner .home-graphic {
-
- }
+.home-inner .home-graphic img {
+   display: block;
+   width: 100%
+   height:auto;
+}
 
 #home-inner .home-nav-inner {
    margin-left: 2rem;
@@ -56,6 +58,28 @@
 #home-inner .intro h2 {
    margin-top: 0;
 }
+
+.recipe {
+   position: relative;
+   margin: 0 30%;
+ }
+
+ .recipe img {
+   width: 100%;
+   height: auto;
+ }
+
+ .recipe .overlay {
+   position: absolute;
+   z-index: 1;
+   width: calc(100% - 4rem);
+   padding: 2rem;
+ }
+
+ .recipe .overlay p {
+   font-size: .75em;
+   margin-top: 0;
+ }
 
 
  /* Masthead */
